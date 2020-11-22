@@ -1,8 +1,8 @@
-# visually-safe-base.js
+# base27
+
 > conversion tool for base27 readable error-proof short URLs
 
-
-### Rules
+### rules
 Only digits and some upper case `latin-1` letters only:
 
 > `0 1 2 3 4 5 6 7 8 9` \
@@ -21,13 +21,13 @@ Only digits and some upper case `latin-1` letters only:
 - X < ХΧ
 
 
-## Install
+## install
 ``` sh
 npm i visually-safe-base.js
 ```
 
 
-## Use
+## use
 ``` js
 const Safe_Base = require( 'visually-safe-base.js' )
 
@@ -42,22 +42,13 @@ Safe_Base.encode( Date.now() )
 Safe_Base.decode( 'xXx_1337_xXx' )
   // > 138542128285927710
 ```
-# base27
-
-> <DESCRIPTION>
-
-
-<a href='./preview.png'><img height=100 border=2 align='right' alt='preview' src='preview.png'></a>
-## preview
-- [preview.html](./preview.html)
-- https://codepen.io/dym-sh/pen/<TBD>/left/?editors=0100
 
 
 ## mirrors
 - https://github.com/dym-sh/base27
 - https://gitlab.com/dym-sh/base27
 - https://dym.sh/base27
-- hyper://<TBD> /[?](https://beakerbrowser.com)
+- hyper://8ef36ae1bd811f7ee431a9023e3bafe67e96bba3e267896018bbedc4999f26b7 /[?](https://beakerbrowser.com)
 
 
 ## license
