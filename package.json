@@ -1,11 +1,10 @@
 { "name" : "visually-safe-base.js"
 , "version" : "0.0.3"
 , "description" : "conversion tool for base27 readable error-proof short URLs"
+, "keywords" : [ "base-conversion", "letters" ]
 , "author" : "Dym Sohin <re@dym.sh>"
 , "license" : "MIT"
 , "main" : "index.js"
-, "repository"
-: { "type" : "git"
-  ,  "url" : "git+https://github.com/dym-sh/base27.git"
-  }
+, "homepage" : "https://dym.sh/base27"
+, "repository" : "https://github.com/dym-sh/base27"
 }
