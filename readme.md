@@ -21,13 +21,12 @@ Only digits and some upper case `latin-1` letters only:
 - X < ХΧ
 
 
-## install
+## install and use
+
 ``` sh
 npm i visually-safe-base.js
 ```
 
-
-## use
 ``` js
 const Safe_Base = require( 'visually-safe-base.js' )
 
@@ -45,6 +44,7 @@ Safe_Base.decode( 'xXx_1337_xXx' )
 
 
 ## mirrors
+- https://npmjs.com/package/visually-safe-base.js
 - https://github.com/dym-sh/base27
 - https://gitlab.com/dym-sh/base27
 - https://dym.sh/base27
